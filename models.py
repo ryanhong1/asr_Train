@@ -12,7 +12,7 @@ def build_model(model_params={}, model_type='asr'):
 
 class ASRCNN(nn.Module):
     def __init__(self,
-                 input_dim=80,
+                 input_dim=512,
                  hidden_dim=256,
                  n_token=35,
                  n_layers=6,
