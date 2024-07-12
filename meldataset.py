@@ -29,7 +29,7 @@ SPECT_PARAMS = {
     "hop_length": 300
 }
 MEL_PARAMS = {
-    "n_mels": 80,
+    "n_mels": 512,
     "n_fft": 2048,
     "win_length": 1200,
     "hop_length": 300
